@@ -5,6 +5,59 @@
 
 body{
     display:flex;
+    margin: 5px;
     flex-direction: column;
     min-height: 100vh; 
+    border: 3px solid lightgray;
+    justify-content: center;
+    align-items: center;   
 }
+main{
+    width: 50%;
+}
+h1{
+    background-color: #94c47f;
+    color: white;
+    padding: 20px;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li, li span{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+li{
+    margin: 30px 0 30px 0;
+    color: #ffa831;  
+}
+
+li span{
+    color: white;
+    background-color: #e06666;
+    text-align: center;
+    padding: 5px;
+}
+
+input, button {
+    border: 3px solid #94c47f;
+    height: 40px;
+}
+
+input{
+    width: 75%;
+}
+
+button{
+    background-color: white;
+    color: #94c47f;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 24%;
+}
+
